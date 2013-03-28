@@ -1,9 +1,15 @@
 !!! 5
 head
 	title #{title}
-	link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=PT+Sans', type='text/css')
-	link(rel='stylesheet', href=base_url + '/main.css', type='text/css')
+  meta(name="viewport",content="width=device-width, initial-scale=1.0")
+  meta(name="description",content="")
+  meta(name="author",content="")
+
+	// link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=PT+Sans', type='text/css')
+	link(rel='stylesheet', href=base_url + '/css/bootstrap.css', type='text/css')
+	link(rel='stylesheet', href=base_url + '/css/styles.css', type='text/css')
 	link(rel='alternate', type='application/rss+xml', title=title, href=base_url + '/rss.xml')
+
 body
 	div.topbar
 		ul
@@ -58,3 +64,5 @@ body
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
 
+  script(src="/js/bootstrap.js",type="text/javascript")
+  

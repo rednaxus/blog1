@@ -1,0 +1,453 @@
+/*
+"VERSO" v 1.0 
+premium template 
+by http://www.sitediscount.ru
+02.2013
+*/
+
+/*
+
+###################### -=[ TABLE OF CONTENTS ]=- ##########################
+
+		GLOBAL .........................45
+		HEADER .........................63
+		TOP BANNER INDEX & 404 page ....65
+		PAGE HEADER ....................96
+		BREADCRUMP.....................138
+		NEADHEAD.......................164
+		PORTFOLIO......................284
+		SOCIAL LINIKS ON TOP...........372
+		NAVIGATION MENU & DROPDOWNS....431
+		MARKETING SECTION..............942
+		TOP SLIDER....................1051
+		PORTFOLIO & CLIENTS ROTATOR...1101
+		FEATURES <P>..................1177
+		BLOG & BLOG CATEGORIES........1196
+		PINTEREST STYLE BLOG..........1655
+		PROJECTS ITEMS,FILTERS, 
+		& ISOTOPE ....................1826
+		SINGL PROJECT.................1990
+		RESPONSIVE VIDEO..............2022
+		CUSTOM FONT SIZES.............2039
+		SCROLL TO TOP.................2092
+		CUSTOM BUTTON ................2124
+		CUSTOM LINES..................2193
+		CUSTOM TITLES.................2312
+		CUSTOM WORD COLORS............2336
+		SITEMAP.......................2348
+		404 page......................2395
+		FOOTER .......................2432
+		RESPONSIVE MAP................2523
+		CUSTOM STYLE <hr/> ...........2554
+		@MEDIA .......................2595
+*/
+
+/****************************** FOOTER ELEMENTS *******************************/
+.footer {
+	margin-top: 0px;
+	border-top: 1px solid #e5e5e5;
+	padding: 30px 0 0 0;
+	color: #ffffff;
+}
+footer .copyright {
+	border-bottom: 0px;
+	font-size: 12px;
+	margin-bottom: 40px;
+	color: #000;
+
+}
+.footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer.nomargintop{
+margin-top:0px;
+}
+.twitter-bottom
+{
+	background-color: #222;
+	border-bottom: none;
+	border-left: 4px solid #2790B0;
+	border-radius: 0px;
+	border-right: none;
+	border-top: none;
+	box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.65);
+	margin-bottom: 40px;
+	min-height: 20px;
+	-moz-border-radius: 0px;
+	-moz-box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.65);
+	padding: 19px;
+	position: relative;
+	-webkit-border-radius: 0px;
+	-webkit-box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.65);
+}
+.twitter-bottom:before
+{
+	border-bottom: 9px solid transparent;
+	border-right: 9px solid #2790B0;
+	border-top: 9px solid transparent;
+	content: '';
+	display: inline-block;
+	left: -10px;
+	position: absolute;
+	top: 5%;
+}
+.twitter-bottom a
+{
+	border-bottom: 1px dotted;
+}
+.twitter-bottom a:hover
+{
+	text-decoration: none;
+}
+.footer-links li a
+{
+	padding-left: 10px;
+	color:#2790B0;
+}
+.footer address
+{
+	padding-left: 10px;
+}
+.footer .socialIcons
+{
+	padding-left: 10px;
+}
+.twitter-sign
+{
+	display: inline-block;
+	margin: 5px 5px 10px auto;
+	text-align: center;
+	width: 100%;
+}
+.caption ul.socialIcons
+{
+	display: block;
+	float: none;
+	width: 100%;
+}
+.phone-info
+{
+	display: inline-block;
+	margin: 3px 0px;
+	width: 100%;
+}
+/****************************** end FOOTER *******************************/
+
+
+.whitespace-100 {
+  height: 100px;
+}
+
+/* Additional Grids */
+
+.span75 {
+  width: 75px;
+}
+
+/* Hotel Results */
+.hotelresults{
+	float: left;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: #F1F1F1;
+	border-right: 1px solid #E5E5E5;
+}
+
+
+/* Temp - Delete later */
+
+.googlemap {
+	margin: 0px;
+	width: 100%;
+}
+
+/* Temp - Delete later */
+
+
+/* 	editsearch */
+.editsearch {
+	  padding-left: 7px;
+  	padding-top: 7px;
+  	padding-bottom: 0px;
+  	background-color: #ededed;
+  	border-top: 1px solid #fff;
+  	border-bottom: 1px solid #ddd;
+}
+
+/* 	sortresutls */
+.sortresults {
+	padding-left: 7px;
+	padding-right:7px;
+  	padding-top: 6px;
+  	padding-bottom: 0px;
+	  height: 38px;
+  	background-color: #ffffff;
+    text-align: right;
+}
+
+/* login-reminder */
+.login-reminder {
+  padding-left: 25px;
+  padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    height: 38px;
+    vertical-align: center;
+}
+
+/* payment */
+.payment {
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+/* invoice */
+
+.table-invoice {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* 	remove gradient in header to just white background */
+.navbar-inner {
+  background-color: #ffffff;
+  background-image: none;
+}
+
+/* 	table padding */
+.table {
+  margin-bottom: 0px;
+}
+
+.goingwhere {
+  padding-bottom: 25px;
+}
+
+// Buttons
+.btn-group {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  vertical-align: top;
+}
+
+.btn-group + .btn-group {
+  margin-left: 0px;
+}
+
+// Reposition the caret
+.btn .caret {
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+/* Datepicker for Bootstrap */
+.datepicker {
+  top: 0;
+  left: 0;
+  padding: 4px;
+  margin-top: 1px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  /*.dow {
+    border-top: 1px solid #ddd !important;
+  }*/
+
+}
+.datepicker:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: -7px;
+  left: 6px;
+}
+.datepicker:after {
+  content: '';
+  display: inline-block;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  position: absolute;
+  top: -6px;
+  left: 7px;
+}
+.datepicker > div {
+  display: none;
+}
+.datepicker table {
+  width: 100%;
+  margin: 0;
+}
+.datepicker td,
+.datepicker th {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.datepicker td.day:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+.datepicker td.day.disabled {
+  color: #eeeeee;
+}
+.datepicker td.old,
+.datepicker td.new {
+  color: #999999;
+}
+.datepicker td.active,
+.datepicker td.active:hover {
+  color: #ffffff;
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #0044cc;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.datepicker td.active:hover,
+.datepicker td.active:hover:hover,
+.datepicker td.active:focus,
+.datepicker td.active:hover:focus,
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td.active.disabled,
+.datepicker td.active:hover.disabled,
+.datepicker td.active[disabled],
+.datepicker td.active:hover[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active {
+  background-color: #003399 \9;
+}
+.datepicker td span {
+  display: block;
+  width: 47px;
+  height: 54px;
+  line-height: 54px;
+  float: left;
+  margin: 2px;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.datepicker td span:hover {
+  background: #eeeeee;
+}
+.datepicker td span.active {
+  color: #ffffff;
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #0044cc;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.datepicker td span.active:hover,
+.datepicker td span.active:focus,
+.datepicker td span.active:active,
+.datepicker td span.active.active,
+.datepicker td span.active.disabled,
+.datepicker td span.active[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+.datepicker td span.active:active,
+.datepicker td span.active.active {
+  background-color: #003399 \9;
+}
+.datepicker td span.old {
+  color: #999999;
+}
+.datepicker th.switch {
+  width: 145px;
+}
+.datepicker th.next,
+.datepicker th.prev {
+  font-size: 21px;
+}
+.datepicker thead tr:first-child th {
+  cursor: pointer;
+}
+.datepicker thead tr:first-child th:hover {
+  background: #eeeeee;
+}
+.input-append.date .add-on i,
+.input-prepend.date .add-on i {
+  display: block;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+/* Prettify for Bootstrap */
+.com { color: #93a1a1; }
+.lit { color: #195f91; }
+.pun, .opn, .clo { color: #93a1a1; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .prettyprint .tag { color: #1e347b; }
+.typ, .atn, .dec, .var { color: teal; }
+.pln { color: #48484c; }
+
+.prettyprint {
+  padding: 8px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+     -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+          box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin: 0 0 0 33px; /* IE indents via margin-left */
+}
+ol.linenums li {
+  padding-left: 12px;
+  color: #bebec5;
+  line-height: 20px;
+  text-shadow: 0 1px 0 #fff;
+}
